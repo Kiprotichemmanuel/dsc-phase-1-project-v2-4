@@ -26,7 +26,7 @@ In the folder zippedData in the associated GitHub repository are movie datasets 
 * IMDB
 * Rotten Tomatoes
 * TheMovieDB.org
-# Questions to consider:
+# Data analysis
 
 1. Which genre types are most likely to be received by the audience?
 To answer the above question the project focused on;
