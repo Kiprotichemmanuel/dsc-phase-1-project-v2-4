@@ -34,6 +34,7 @@ Performing regressions on ROI vs genre, runtime, and budget, identify the optima
 How did you iterate on your initial approach to make it better?
 We examined many different slices of the data and visualizations until we found significant results. Discovering and fixing data cleaning and quality issues ended up changing our results significantly from the start to the end of the analysis process, so it's hard to say what modelling changes had a large impact.
 Why are these choices appropriate given the data and the business problem?
+
 Microsoft has a lot of capital, but also lots of other expenses. We analyzed the data with multiple target variables in mind to enable them to make a good decision no matter how much capital they want to invest, how profitable their other investment opportunities are, or how much they think their movie studio's brand might influence the "Microsoft" brand (for better or worse).
 
 2. What are the most sucessful distribution channel for movies?
