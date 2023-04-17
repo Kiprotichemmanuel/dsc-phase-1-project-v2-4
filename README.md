@@ -7,6 +7,9 @@ Overview
 This repo helps to explore relationships between runtime, budget, genre and ROI. The best movies for optimizing ROI are comedy, musical romance, drama and performing arts. These tend to have higher votes_average and popularity.The best movies for optimizing vote score and total profit are played for long, high budget it include comedy, drama, romance and performing arts. in order to achive high ROI the company must also focus on other factors like promotional activities, quality production and content creation.
 Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They havedecided to create a new movie studio, but the problem is they don’t know anything about creating movies. Theyhave hired you to help them better understand the movie industry. Your team is charged with exploring what type offilms are currently doing the best at the box office. You must then translate those findings into actionable insightsthat the head of Microsoft's new movie studio can use to help decide what type of films to create
 
+# Business Problem
+Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. They have hired you to help them better understand the movie industry. Your team is charged with exploring what type of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+
 Variables:
 This project focus on below indepent variables
 * Revenue
