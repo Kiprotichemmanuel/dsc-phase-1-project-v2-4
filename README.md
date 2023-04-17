@@ -7,6 +7,12 @@ Overview
 This repo helps to explore relationships between runtime, budget, genre and ROI. The best movies for optimizing ROI are comedy, musical romance, drama and performing arts. These tend to have higher votes_average and popularity.The best movies for optimizing vote score and total profit are played for long, high budget it include comedy, drama, romance and performing arts. in order to achive high ROI the company must also focus on other factors like promotional activities, quality production and content creation.
 Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They havedecided to create a new movie studio, but the problem is they don’t know anything about creating movies. Theyhave hired you to help them better understand the movie industry. Your team is charged with exploring what type offilms are currently doing the best at the box office. You must then translate those findings into actionable insightsthat the head of Microsoft's new movie studio can use to help decide what type of films to create
 
+Variables:
+This project focus on below indepent variables
+* Revenue
+* marketing
+* genre
+
 Questions to consider:
 
 1.Which genre types are most likely to be received by the audience?
@@ -23,47 +29,30 @@ TheMovieDB.org
 Questions to consider:
 
 1.Which genre types are most likely to be received by the audience?
-What do the data represent? Who is in the sample and what variables are included?
-What is the target variable?
-ROI, profit, and vote_average.
-What are the properties of the variables you intend to use?
-Methods
-Describe and justify the process for analyzing or modeling the data.
-
-Questions to consider:
-
-How did you analyze or model the data?
-Perform regressions on ROI vs genre, runtime, and budget, identify the optimal choices, and repeat using other metrics until we come to a full recommendation on what type of move to make.
+To answer the above question the project focused on;
+Performing regressions on ROI vs genre, runtime, and budget, identify the optimal choices, and repeat using other metrics until we come to a full recommendation on what type of move to make.
 How did you iterate on your initial approach to make it better?
 We examined many different slices of the data and visualizations until we found significant results. Discovering and fixing data cleaning and quality issues ended up changing our results significantly from the start to the end of the analysis process, so it's hard to say what modelling changes had a large impact.
 Why are these choices appropriate given the data and the business problem?
 Microsoft has a lot of capital, but also lots of other expenses. We analyzed the data with multiple target variables in mind to enable them to make a good decision no matter how much capital they want to invest, how profitable their other investment opportunities are, or how much they think their movie studio's brand might influence the "Microsoft" brand (for better or worse).
-Evaluation
-Evaluate how well your work solves the stated business problem.
 
-Questions to consider:
+2.What are the most sucessful distribution channel for movies?
+To check on this aspect, the analysis focused on popularity and vote_average.
+Summary statistics indicate our recommendations should increase expected profit, ROI, and vote average beyond making generic movie. increasing the popularity also wil translate to more votes. this increases the chances of improving the return on investment.this section regreted the two variables against ROI and perform correlation analysis which were also visualized to get clear understanding of the behaviour.
 
-How do you interpret the results?
-We identified movie types that vastly outperform average movies on all key metrics, which is a great result for shaping studio policy.
-How well does your model fit your data? How much better is this than your baseline model?
-We don't have real "models" yet. Summary statistics indicate our recommendations should increase expected profit, ROI, and vote average beyond making generic movie.
-How confident are you that your results would generalize beyond the data you have?
-Very confident.
-How confident are you that this model would benefit the business if put into use?
-Very confident.
-Conclusions
-Provide your conclusions about the work you've done, including any limitations or next steps.
+3.Which genre combination have the highest return on investment?
+In this question the analysis focused on identifying genre combination with high returns on investment. after cleaning the data the analysis was done and visualized. this shows that the comedy, drama, performing arts, romance were aong the top performing movies. checking on the costing vs the return on investment show that there is negative correlation. This shows there are other factors to be considered in order to improve on the aspect of return on investment. Apllying appropriated promotional channel, quality issue and content creation are three issues to be put into consideration. 
 
-Questions to consider: *“Middle of the Road” movies are the worst across all metrics: ** Make a low-budget (for best ROI) or high budget (for best profit, best ratings, good ROI) movie, not a middle budget movie ** Make a movie that is either long or short, not medium length
+Project Conclusion
+This project aimed to identify properties that are associated with movie popularity and provide recommendations to Microsoft Studios based on the analysis.
 
-Pick Genre that suits budget and length:
-Horror/Thriller for Low Budget/Short Movies
-Sci-Fi/Thriller for High Budget/Long Movies
-Intellectual Property seems important for successful High Budget/Long Movies
-We did not fully explore this relationship due to limited data about IP costs; would recommend obtaining this data and re-analyzing
-Acquire movie rights for comic book superheroes or popular books.
-Further Research
-We can help analyze directors/writers/actors within a certain genre/budget/runtime once you make a decision!
-For More Information
-Please review our full analysis in our Jupyter Notebook or our presentation.
+After cleaning and trimming the dataset, I created a secondary table that broke down each movie into the separate genres it falls under. I plotted various variables against vote average and found that movies with higher vote averages tend to have higher budgets and higher revenue. However, there was a weak correlation between popularity, vote average, and return on investment.
+
+Recommendations
+Based on the analysis, I recommend the following to Microsoft Studios:
+
+Release comedy, musical, performing arts, drama, and romance movies as they are highly captivating the population.
+Invest more in the production of comedy, performing arts, musical, drama, and romance movies.
+Commit more funds to promotional activities, quality, and content of movies being produced.
+Overall, Microsoft Studios should focus on balancing all aspects, including quality, content, marketing strategies, and budget allocation, to improve the return on investment for their movies.presentation.
 
